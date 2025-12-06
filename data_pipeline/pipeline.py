@@ -79,7 +79,7 @@ class DataPipeline:
 
         self.data = unique_data
 
-    def write_csv(self):
+    def write_csv(self)-> bool:
         """Write cleaned CSV."""
         try:
             with open(self.output_file, mode="w", newline="") as csv_file:
@@ -88,9 +88,11 @@ class DataPipeline:
                 writer.writerows(self.data)
 
             logging.info(f"Successfully wrote cleaned data to {self.output_file}")
+            return True
 
         except Exception as e:
             logging.error(f"Failed to write CSV: {e}")
+            return False
 
     # --------------------------
     # Cleaning Functions

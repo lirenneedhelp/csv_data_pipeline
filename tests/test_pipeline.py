@@ -5,8 +5,12 @@ from data_pipeline.pipeline import to_float
 class TestDataPipeline(unittest.TestCase):
 
     def setUp(self):
+        data_directory = "data/"
+        test_directory = data_directory + "test.csv"
+        cleaned_directory = data_directory + "cleaned_test.csv"
+
         # Create a tiny sample dataset for testing
-        with open("test.csv", "w") as f:
+        with open(test_directory, "w") as f:
             f.write(
                 "X,X,X,X\n"
                 "sn,age,embarked,fare,date\n"
@@ -15,7 +19,7 @@ class TestDataPipeline(unittest.TestCase):
                 "3,35,,,\n"
             )
 
-        self.pipeline = DataPipeline("test.csv", "cleaned_test.csv")
+        self.pipeline = DataPipeline(test_directory, cleaned_directory)
         self.pipeline.read_csv()
 
     def test_fill_columns(self):
@@ -39,6 +43,10 @@ class TestDataPipeline(unittest.TestCase):
     def test_to_float(self):
         self.assertEqual(to_float("3.14"), 3.14)
         self.assertEqual(to_float("abc", 99), 99)
+    
+    def test_write(self):
+        result = self.pipeline.write_csv()
+        self.assertTrue(result)
 
 if __name__ == "__main__":
     unittest.main()
