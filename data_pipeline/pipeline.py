@@ -2,7 +2,7 @@ import csv
 import statistics
 import logging
 
-from data_pipeline.utils import to_float
+from .utils import to_float
 
 # -----------------------------
 # Logging Configuration

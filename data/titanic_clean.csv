@@ -1,4 +1,4 @@
-sn,pclass,survived,name,gender,age,family,fare,embarked,date
+sn,pclass,survived,,gender,age,family,fare,embarked,date
 1,3,0,Mr. Anthony,male,42,0,7.55,S,01-Jan-90
 2,3,0,Master. Eugene Joseph,male,28,2,20.25,S,02-Jan-90
 3,2,0,"Abbott, Mr. Rossmore Edward",,28,2,14.4542,S,03-Jan-90
@@ -164,7 +164,7 @@ sn,pclass,survived,name,gender,age,family,fare,embarked,date
 163,1,1,"Brown, Mrs. James Joseph (Margaret Tobin)",female,44,0,27.7208,C,12-Jun-90
 164,1,1,"Brown, Mrs. John Murray (Caroline Lane Lamson)",female,59,2,51.4792,S,13-Jun-90
 165,2,1,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",female,40,2,39.0,S,14-Jun-90
-166,2,1,"Bryhl, Miss. Dagmar Jenny Ingeborg ",female,20,1,26.0,S,15-Jun-90
+166,2,1,"Bryhl, Miss. Dagmar Jenny Ingeborg",female,20,1,26.0,S,15-Jun-90
 167,2,0,"Bryhl, Mr. Kurt Arnold Gottfrid",male,25,1,26.0,S,16-Jun-90
 168,3,0,"Buckley, Miss. Katherine",female,28,0,7.2833,Q,17-Jun-90
 169,3,1,"Buckley, Mr. Daniel",male,21,0,7.8208,Q,18-Jun-90
@@ -294,7 +294,7 @@ sn,pclass,survived,name,gender,age,family,fare,embarked,date
 293,3,0,"Dakic, Mr. Branko",male,19,0,10.1708,S,20-Oct-90
 294,3,1,"Daly, Miss. Margaret Marcella ""Maggie""",female,30,0,6.95,Q,21-Oct-90
 295,3,1,"Daly, Mr. Eugene Patrick",male,29,0,7.75,Q,22-Oct-90
-296,1,1,"Daly, Mr. Peter Denis ",male,51,0,26.55,S,23-Oct-90
+296,1,1,"Daly, Mr. Peter Denis",male,51,0,26.55,S,23-Oct-90
 297,3,0,"Danbom, Master. Gilbert Sigvard Emanuel",male,28,2,14.4,S,24-Oct-90
 298,3,0,"Danbom, Mr. Ernst Gilbert",male,34,2,14.4,S,25-Oct-90
 299,3,0,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",female,28,2,14.4,S,26-Oct-90
@@ -310,7 +310,7 @@ sn,pclass,survived,name,gender,age,family,fare,embarked,date
 309,3,0,"Davies, Mr. Evan",male,22,0,8.05,S,05-Nov-90
 310,3,0,"Davies, Mr. John Samuel",male,21,2,24.15,S,06-Nov-90
 311,3,0,"Davies, Mr. Joseph",male,17,2,8.05,S,07-Nov-90
-312,2,1,"Davies, Mrs. John Morgan (Elizabeth Agnes Mary White) ",female,48,2,36.75,S,08-Nov-90
+312,2,1,"Davies, Mrs. John Morgan (Elizabeth Agnes Mary White)",female,48,2,36.75,S,08-Nov-90
 313,2,1,"Davis, Miss. Mary",female,28,0,13.0,S,09-Nov-90
 314,3,0,"Davison, Mr. Thomas Henry",male,28,1,16.1,S,10-Nov-90
 315,3,1,"Davison, Mrs. Thomas Henry (Mary E Finck)",female,28,1,16.1,S,11-Nov-90
@@ -539,7 +539,7 @@ sn,pclass,survived,name,gender,age,family,fare,embarked,date
 538,2,1,"Herman, Miss. Kate",female,24,3,65.0,S,22-Jun-91
 539,2,0,"Herman, Mr. Samuel",male,49,3,65.0,S,23-Jun-91
 540,2,1,"Herman, Mrs. Samuel (Jane Laver)",female,48,3,65.0,S,24-Jun-91
-541,2,1,"Hewlett, Mrs. (Mary D Kingcome) ",female,55,0,16.0,S,25-Jun-91
+541,2,1,"Hewlett, Mrs. (Mary D Kingcome)",female,55,0,16.0,S,25-Jun-91
 542,2,0,"Hickman, Mr. Leonard Mark",male,24,2,73.5,S,26-Jun-91
 543,2,0,"Hickman, Mr. Lewis",male,32,2,73.5,S,27-Jun-91
 544,2,0,"Hickman, Mr. Stanley George",male,21,2,73.5,S,28-Jun-91
